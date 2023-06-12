@@ -1,0 +1,126 @@
+body{
+  padding: 20px;  
+}
+.nav ul{
+    color:rgb(191, 99, 6) ;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+   
+    gap: 5%;
+    color:rgb(191, 99, 6);
+    font-weight: bold;
+}
+#hom{
+    font-size: 30px;
+    font-weight: bolder;
+}
+#african{
+    width: 600px;
+    height: 500px;
+    border-radius: 38px;
+   
+    animation: flip; 
+    animation-duration: 2s; 
+
+
+   
+}
+.face{
+    margin-top: -48%;
+    margin-left: 60%;
+    color:rgb(191, 99, 6); 
+    
+   
+}
+.skin{
+    font-size: 40px;
+    color: green;
+    animation: bounce; 
+    animation-duration: 2s; 
+}
+.body{
+    font-size: 40px;
+    color: green;
+
+}
+.face h2{
+    font-size: 30px;
+}
+#bbody{
+    
+    margin-left: 60%;
+    color:rgb(191, 99, 6);
+
+}
+.bbody h2{
+    font-size: 30px;
+}
+#product{
+    margin-left: 65%;
+    width: 370px;
+    height: 331px;
+    border-radius: 38px;
+    
+    animation: zoomInDown;
+    animation-duration: 2s;
+
+
+}
+#glow{
+    font-size: 10%;
+    font-weight: bold;
+    color:rgb(191, 99, 6);
+
+}
+
+body{
+    background-color:rgb(238, 228, 228);
+}
+span{
+    color: #000;
+}
+.beauty{
+    color:green ;
+    font-size: 60px;
+}
+
+    
+
+@media screen and (max-width:800px){
+#skin{
+        margin-left: -10%;
+        margin-bottom: 10px;
+    }
+#african{
+        width: 150px;
+        height: 150px;
+
+    }
+#product{
+    width: 100px;
+    height: 150px;
+    margin-right: -50%;
+    
+
+
+} 
+.list{
+    flex-direction: column;
+}  
+.beauty{
+    font-size: 15px;
+} 
+.face{
+    margin-left: 40%;
+
+}
+#bbody{
+    margin-left: 40%;
+
+}
+    
+   
+}
